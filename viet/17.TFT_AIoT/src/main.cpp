@@ -11,7 +11,7 @@ int humidity_old;
 
 int hour_new;
 int hour_old;
-
+int viet = 2;
 int minutes_old;
 int minutes_new;
 

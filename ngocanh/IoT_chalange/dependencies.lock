@@ -1,0 +1,99 @@
+dependencies:
+  espressif/button:
+    component_hash: 1f5297fe16f0ee988dbb14b6f4c91782fe2baf85025bb15cc1e0093edd3fb2ee
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 3.2.0
+  espressif/cbor:
+    component_hash: 440f4ee4504841cc9b4f3a8ef755776a612ac9dace355514c68b999868f990ff
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.6.0~1
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.5.3
+  espressif/esp32-camera:
+    component_hash: a1933162caca04a3a3bb0dca00bb56fcb3c50cd3779ab2f2b03ad8536e9bd0d0
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 2.0.9
+  espressif/esp32_s3_eye_noglib:
+    component_hash: 5d5feae65316856500d90f264abc7bbd3b1e31a1621f89e459adb5314baae523
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 3.0.4
+  espressif/esp_codec_dev:
+    component_hash: 1a3a2e518cd8b52e8796ec393a4050977f8f113599056faf085a02a57e194f86
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.1.0
+  espressif/esp_diag_data_store:
+    component_hash: null
+    source:
+      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\esp-insights\components\esp_diag_data_store
+      type: local
+    version: 1.0.1
+  espressif/esp_diagnostics:
+    component_hash: null
+    source:
+      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\esp-insights\components\esp_diagnostics
+      type: local
+    version: 1.0.1
+  espressif/esp_schedule:
+    component_hash: null
+    source:
+      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\esp_schedule
+      type: local
+    version: 1.2.0
+  espressif/esp_secure_cert_mgr:
+    component_hash: a20007d67e65a000670ab77e45d7554c943eb8dcb0abeada0a57dd9adac3a703
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 2.4.1
+  espressif/json_generator:
+    component_hash: null
+    source:
+      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\json_generator
+      type: local
+    version: 1.1.1
+  espressif/json_parser:
+    component_hash: null
+    source:
+      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\json_parser
+      type: local
+    version: 1.0.3
+  espressif/mdns:
+    component_hash: ed10ef031bce505e423c5dbf0fdf2ce7a02df5f9ebffb18df2d6b9852e48817d
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.3.1
+  espressif/rmaker_common:
+    component_hash: null
+    source:
+      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\esp-insights\components\rmaker_common
+      type: local
+    version: 1.4.3
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.1
+  jsmn:
+    component_hash: null
+    source:
+      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\jsmn
+      type: local
+    version: 1.1.0
+manifest_hash: 8a5c9df0c2da7cc260e70321ce5475e16e1ba2331623e4c334cbfc1351cebabc
+target: esp32s3
+version: 1.0.0

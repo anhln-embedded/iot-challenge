@@ -1,0 +1,35 @@
+.pio/build/seeed_xiao_esp32s3/src/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.o: \
+ src/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp \
+ src/edge-impulse-sdk/dsp/dct/fast-dct-fft.h \
+ src/edge-impulse-sdk/dsp/dct/../kissfft/kiss_fft.h \
+ e:\code\platformio\kws\src\edge-impulse-sdk\porting\ei_classifier_porting.h \
+ src/edge-impulse-sdk/dsp/returntypes.h \
+ C:/Users/doanm/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include/esp_idf_version.h \
+ src/edge-impulse-sdk/dsp/dct/../returntypes.hpp \
+ src/edge-impulse-sdk/dsp/dct/../returntypes.h \
+ src/edge-impulse-sdk/dsp/dct/../numpy.hpp \
+ src/edge-impulse-sdk/dsp/dct/../ei_vector.h \
+ src/edge-impulse-sdk/dsp/dct/../ei_alloc.h \
+ src/edge-impulse-sdk/dsp/dct/../memory.hpp \
+ src/edge-impulse-sdk/dsp/dct/../../porting/ei_classifier_porting.h \
+ src/edge-impulse-sdk/classifier/ei_aligned_malloc.h \
+ src/edge-impulse-sdk/classifier/../porting/ei_classifier_porting.h \
+ src/edge-impulse-sdk/dsp/dct/../config.hpp \
+ src/edge-impulse-sdk/dsp/dct/../numpy_types.h \
+ src/edge-impulse-sdk/dsp/ei_vector.h \
+ src/edge-impulse-sdk/dsp/dct/../returntypes.hpp \
+ src/edge-impulse-sdk/dsp/dct/../ei_utils.h \
+ src/edge-impulse-sdk/dsp/dct/../dct/fast-dct-fft.h \
+ src/edge-impulse-sdk/dsp/dct/../kissfft/kiss_fftr.h \
+ src/edge-impulse-sdk/dsp/dct/../kissfft/kiss_fft.h \
+ src/model-parameters/model_metadata.h \
+ src/edge-impulse-sdk/CMSIS/DSP/Include/dsp/statistics_functions.h \
+ src/edge-impulse-sdk/CMSIS/DSP/Include/arm_math_types.h \
+ src/edge-impulse-sdk/CMSIS/Core/Include/cmsis_compiler.h \
+ src/edge-impulse-sdk/CMSIS/Core/Include/cmsis_gcc.h \
+ src/edge-impulse-sdk/CMSIS/DSP/Include/arm_math_memory.h \
+ src/edge-impulse-sdk/CMSIS/DSP/Include/dsp/none.h \
+ src/edge-impulse-sdk/CMSIS/DSP/Include/dsp/utils.h \
+ src/edge-impulse-sdk/CMSIS/DSP/Include/dsp/basic_math_functions.h \
+ src/edge-impulse-sdk/CMSIS/DSP/Include/dsp/fast_math_functions.h \
+ src/edge-impulse-sdk/dsp/dct/../memory.hpp

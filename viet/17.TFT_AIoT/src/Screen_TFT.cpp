@@ -5,7 +5,12 @@ TFT_eSPI tft = TFT_eSPI();
 void TFT_Setup(void)
 {
     Serial.begin(115200);
+<<<<<<< HEAD
     
+=======
+    Serial2.begin(115200,SERIAL_8N1,16,17);
+
+>>>>>>> duong
     tft.init();
     tft.setRotation(0);
     tft.fillScreen(TFT_WHITE);

@@ -17,16 +17,25 @@ void Send_Data(int temperature, int humidity)
     doc["Temperature"] = temperature;
     doc["Humidity"] = humidity;
 
+<<<<<<< HEAD
     serializeJson(doc, Serial);
 
+=======
+>>>>>>> duong
     Serial.println();
 }
 
 void Receive_Data()
 {
+<<<<<<< HEAD
     if (Serial.available())
     {
         String jsonMessage = Serial.readStringUntil('\n');
+=======
+    if (Serial2.available())
+    {
+        String jsonMessage = Serial2.readStringUntil('\n');
+>>>>>>> duong
 
         DynamicJsonDocument doc(1024);
 
@@ -48,5 +57,9 @@ void Receive_Data()
         data_hour = doc["Hour"].as<int>();
         data_button = doc["Button"].as<int>();
         data_signal = doc["Signal"].as<int>();
+<<<<<<< HEAD
+=======
+
+>>>>>>> duong
     }
 }

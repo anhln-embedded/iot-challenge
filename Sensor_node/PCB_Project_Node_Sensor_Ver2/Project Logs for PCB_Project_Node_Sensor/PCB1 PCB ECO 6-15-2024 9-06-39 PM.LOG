@@ -1,0 +1,21 @@
+Change Component Description : Designator=U6 Old Description=DIGITAL HUMIDITY, PRESSURE AND TEMPERATURE SENSOR<br>* Digital interface IÂ²C (up to 3.4 MHz) and SPI (3 and 4 wire, up to 10 MHz)* Supply voltage VDD main supply voltage range: 1.71 V to 3.6 V*VDDIO interface voltage range: 1.2 V to 3.6 V<br> Operating range -40â€ New Description=DIGITAL HUMIDITY, PRESSURE AND TEMPERATURE SENSOR<br>* Digital interface IÂ²C (up to 3.4 MHz) and SPI (3 and 4 wire, up to 10 MHz)* Supply voltage VDD main supply voltage range: 1.71 V to 3.6 V*VDDIO interface voltage range: 1.2 V to 3.6 V<br> Operating range -40â€|+85 Â°C, 0â€|100 % rel. humidity, 300â€|1100 hPa <br><br>  The library has been designed by<a href="https://www.facebook.com/groups/eaglecadsoftUK"> Richard Magdycz</a>
+Added Component: Designator=C6(C-0603)
+Add component (AddParameter): Name = "Value"; Value = "103"; VariantName = "[No Variations]"
+Added Component: Designator=R23(RES-SMD-0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=SW(TACTILE SWITCH TC-0203)
+Add component (AddParameter): Name = "Value"; Value = "Button chip 4 pin"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=3V3 Pin=R23-2
+Added Pin To Net: NetName=GND Pin=SW-2
+Added Pin To Net: NetName=IO2_2 Pin=C6-2
+Added Pin To Net: NetName=IO2_2 Pin=ESP32-24
+Added Pin To Net: NetName=IO2_2 Pin=R23-1
+Added Pin To Net: NetName=IO2_2 Pin=SW-1
+Added Net: Name=IO2_2
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component C6 100nF
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component R23 10K
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component SW

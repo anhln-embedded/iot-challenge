@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=LED Pin=ESP32 S3-14
+Added Pin To Net: NetName=LED Pin=ESP32 S3-23

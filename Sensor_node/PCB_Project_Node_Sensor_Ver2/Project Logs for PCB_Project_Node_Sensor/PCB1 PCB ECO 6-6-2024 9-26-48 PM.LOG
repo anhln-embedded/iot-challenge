@@ -1,0 +1,16 @@
+Added Component: Designator=LED1(LED-0603)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 - 5 ly 2 Colour"; VariantName = "[No Variations]"
+Added Component: Designator=R18(RES-SMD-0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=R18-2
+Added Pin To Net: NetName=IO25_2 Pin=ESP32-10
+Added Pin To Net: NetName=IO25_2 Pin=LED1-2
+Added Net: Name=IO25_2
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R18-1
+Added Net: Name=NetLED1_1
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component LED1 LED
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component R18 1K

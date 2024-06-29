@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=DHT Pin=ESP32-31
+Added Pin To Net: NetName=DHT Pin=ESP32-6

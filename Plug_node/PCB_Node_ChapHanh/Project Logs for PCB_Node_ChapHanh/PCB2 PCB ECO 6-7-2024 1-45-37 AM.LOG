@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=L Pin=RELAY1-1
+Removed Pin From Net: NetName=L1 Pin=RELAY1-3
+Removed Pin From Net: NetName=NetD1_1 Pin=RELAY1-4
+Removed Pin From Net: NetName=5V Pin=RELAY1-5
+Removed Pin From Net: NetName=L Pin=RELAY2-1
+Removed Pin From Net: NetName=L2 Pin=RELAY2-3
+Removed Pin From Net: NetName=NetD2_1 Pin=RELAY2-4
+Removed Pin From Net: NetName=5V Pin=RELAY2-5
+Removed Pin From Net: NetName=L Pin=RELAY3-1
+Removed Pin From Net: NetName=L3 Pin=RELAY3-3
+Removed Pin From Net: NetName=NetD3_1 Pin=RELAY3-4
+Removed Pin From Net: NetName=5V Pin=RELAY3-5
+Removed Member From Class: ClassName=Sheet1 Member=RELAY1
+Removed Member From Class: ClassName=Sheet1 Member=RELAY2
+Removed Member From Class: ClassName=Sheet1 Member=RELAY3
+Added Component: Designator=RL1(RL_SPDT_10A)
+Add component (AddParameter): Name = "Value"; Value = "Relay SPDT, 10A, 12V"; VariantName = "[No Variations]"
+Added Component: Designator=RL2(RL_SPDT_10A)
+Add component (AddParameter): Name = "Value"; Value = "Relay SPDT, 10A, 12V"; VariantName = "[No Variations]"
+Added Component: Designator=RL3(RL_SPDT_10A)
+Add component (AddParameter): Name = "Value"; Value = "Relay SPDT, 10A, 12V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=L Pin=RL1-1
+Added Pin To Net: NetName=L1 Pin=RL1-3
+Added Pin To Net: NetName=NetD1_1 Pin=RL1-4
+Added Pin To Net: NetName=5V Pin=RL1-5
+Added Pin To Net: NetName=L Pin=RL2-1
+Added Pin To Net: NetName=L2 Pin=RL2-3
+Added Pin To Net: NetName=NetD2_1 Pin=RL2-4
+Added Pin To Net: NetName=5V Pin=RL2-5
+Added Pin To Net: NetName=L Pin=RL3-1
+Added Pin To Net: NetName=L3 Pin=RL3-3
+Added Pin To Net: NetName=NetD3_1 Pin=RL3-4
+Added Pin To Net: NetName=5V Pin=RL3-5
+Added Member To Class: ClassName=Sheet1 Member=Component RL1 Relay 10A/12V
+Added Member To Class: ClassName=Sheet1 Member=Component RL2 Relay 10A/12V
+Added Member To Class: ClassName=Sheet1 Member=Component RL3 Relay 10A/12V

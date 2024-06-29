@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=LED Pin=ESP1-19
+Change Component Designator: OldDesignator=ESP1 NewDesignator=ESP32 S3
+Added Pin To Net: NetName=LED Pin=ESP32 S3-14

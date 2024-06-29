@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=LED Pin=ESP1-19
+Added Pin To Net: NetName=RELAY3 Pin=ESP1-20
+Added Pin To Net: NetName=RELAY2 Pin=ESP1-21
+Added Pin To Net: NetName=RELAY1 Pin=ESP1-22

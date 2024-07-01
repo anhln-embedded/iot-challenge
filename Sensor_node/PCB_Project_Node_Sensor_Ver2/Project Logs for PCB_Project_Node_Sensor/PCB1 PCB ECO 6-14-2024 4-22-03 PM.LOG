@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=B+ Pin=C3-1
+Removed Pin From Net: NetName=B+ Pin=U2-1
+Removed Pin From Net: NetName=B+ Pin=U2-10
+Added Component: Designator=SW PWR(Header2)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613002143121"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=B+ Pin=SW PWR-2
+Added Pin To Net: NetName=VBUS Pin=C3-1
+Added Pin To Net: NetName=VBUS Pin=SW PWR-1
+Added Pin To Net: NetName=VBUS Pin=U2-1
+Added Pin To Net: NetName=VBUS Pin=U2-10
+Added Net: Name=VBUS
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component C3 10uF/16V
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component C4 22uF
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component C5 100nF
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component L1 150mH
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component R1 100K
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component R2 511K
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component R10 91K
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component SW PWR Header2
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component U2 TPS63802DLAR

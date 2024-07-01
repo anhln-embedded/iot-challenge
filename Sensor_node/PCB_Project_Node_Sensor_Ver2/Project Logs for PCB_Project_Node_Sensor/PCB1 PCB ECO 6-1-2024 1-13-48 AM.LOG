@@ -1,0 +1,39 @@
+Added Component: Designator=ESP32-S3(ESP32-S3-WROOM-1)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "{'manufacturer': u'Espressif Systems'}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ESP32-S3-WROOM-1-N8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=ESP32-S3-1
+Added Pin To Net: NetName=3V3 Pin=ESP32-S3-2
+Added Pin To Net: NetName=EN_1 Pin=ESP32-S3-3
+Added Pin To Net: NetName=TXD1_1 Pin=ESP32-S3-10
+Added Pin To Net: NetName=RXD1_1 Pin=ESP32-S3-11
+Added Pin To Net: NetName=IO0_1 Pin=ESP32-S3-27
+Added Pin To Net: NetName=RXD0_1 Pin=ESP32-S3-36
+Added Pin To Net: NetName=TXD0_1 Pin=ESP32-S3-37
+Added Pin To Net: NetName=GND Pin=ESP32-S3-40
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component ESP32-S3 ESP32-S3-WROOM
+Added Room: Name=Node_Sensor_Schematic

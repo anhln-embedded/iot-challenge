@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=EN_1 Pin=RESET1-1
+Removed Pin From Net: NetName=GND Pin=RESET1-2
+Removed Pin From Net: NetName=EN_2 Pin=RESET2-1
+Removed Pin From Net: NetName=GND Pin=RESET2-2
+Removed Member From Class: ClassName=Node_Sensor_Schematic Member=RESET1
+Removed Member From Class: ClassName=Node_Sensor_Schematic Member=RESET2

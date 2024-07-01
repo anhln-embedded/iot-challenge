@@ -1,0 +1,89 @@
+Removed Pin From Net: NetName=L Pin=RL1-1
+Removed Pin From Net: NetName=L1 Pin=RL1-3
+Removed Pin From Net: NetName=NetD1_1 Pin=RL1-4
+Removed Pin From Net: NetName=5V Pin=RL1-5
+Removed Pin From Net: NetName=L Pin=RL2-1
+Removed Pin From Net: NetName=L2 Pin=RL2-3
+Removed Pin From Net: NetName=NetD2_1 Pin=RL2-4
+Removed Pin From Net: NetName=5V Pin=RL2-5
+Removed Pin From Net: NetName=L Pin=RL3-1
+Removed Pin From Net: NetName=L3 Pin=RL3-3
+Removed Pin From Net: NetName=NetD3_1 Pin=RL3-4
+Removed Pin From Net: NetName=5V Pin=RL3-5
+Removed Pin From Net: NetName=RXD1_1 Pin=U1-7
+Removed Pin From Net: NetName=RXD1_1 Pin=U1-7
+Removed Pin From Net: NetName=TXD1_1 Pin=U1-8
+Removed Pin From Net: NetName=TXD1_1 Pin=U1-8
+Removed Pin From Net: NetName=GND Pin=U1-13
+Removed Pin From Net: NetName=GND Pin=U1-13
+Removed Pin From Net: NetName=5V Pin=U1-14
+Removed Pin From Net: NetName=5V Pin=U1-14
+Removed Pin From Net: NetName=3V3 Pin=U2-4
+Removed Member From Class: ClassName=Sheet1 Member=U1
+Change Component Footprint: Designator=C6 Old Footprint=C-0603 New Footprint=SM-0805
+Change Component Footprint: Designator=C7 Old Footprint=C-0603 New Footprint=SM-0805
+Added Component: Designator=C8(CAP-ALU-SMD-D)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "POLAR0.8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C9(SM-0805)
+Add component (AddParameter): Name = "Value"; Value = "103"; VariantName = "[No Variations]"
+Added Component: Designator=RL1(RELAY 5A)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PR5-5V-200-1A/CUI+Devices/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CUI_purchase_URL"; Value = "https://www.cuidevices.com/product/relays/power-relays/pr5-5v-200-1a?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "CUI Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PR5-5V-200-1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PR5-5V-200-1A/CUI+Devices/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=RL2(RELAY 5A)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PR5-5V-200-1A/CUI+Devices/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CUI_purchase_URL"; Value = "https://www.cuidevices.com/product/relays/power-relays/pr5-5v-200-1a?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "CUI Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PR5-5V-200-1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PR5-5V-200-1A/CUI+Devices/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=RL3(RELAY 5A)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PR5-5V-200-1A/CUI+Devices/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CUI_purchase_URL"; Value = "https://www.cuidevices.com/product/relays/power-relays/pr5-5v-200-1a?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "CUI Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PR5-5V-200-1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PR5-5V-200-1A/CUI+Devices/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XIAO UART(Header4)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613002143121"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=5V Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=5V Pin=RL1-1
+Added Pin To Net: NetName=NetD1_1 Pin=RL1-2
+Added Pin To Net: NetName=L1 Pin=RL1-3
+Added Pin To Net: NetName=L Pin=RL1-4
+Added Pin To Net: NetName=5V Pin=RL2-1
+Added Pin To Net: NetName=NetD2_1 Pin=RL2-2
+Added Pin To Net: NetName=L2 Pin=RL2-3
+Added Pin To Net: NetName=L Pin=RL2-4
+Added Pin To Net: NetName=5V Pin=RL3-1
+Added Pin To Net: NetName=NetD3_1 Pin=RL3-2
+Added Pin To Net: NetName=L3 Pin=RL3-3
+Added Pin To Net: NetName=L Pin=RL3-4
+Added Pin To Net: NetName=GND Pin=XIAO UART-1
+Added Pin To Net: NetName=5V Pin=XIAO UART-2
+Added Pin To Net: NetName=RXD1_1 Pin=XIAO UART-3
+Added Pin To Net: NetName=TXD1_1 Pin=XIAO UART-4
+Added Member To Class: ClassName=Sheet1 Member=Component C8 22uF/25V
+Added Member To Class: ClassName=Sheet1 Member=Component C9 100nF
+Added Member To Class: ClassName=Sheet1 Member=Component XIAO UART Header4

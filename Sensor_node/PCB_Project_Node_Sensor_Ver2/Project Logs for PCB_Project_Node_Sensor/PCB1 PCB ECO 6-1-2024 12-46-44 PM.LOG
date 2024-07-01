@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=TXD1_1 Pin=ESP32-27
+Removed Pin From Net: NetName=RXD1_1 Pin=ESP32-28
+Added Component: Designator=R16(RES-SMD-0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R17(RES-SMD-0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RXD1_1 Pin=R16-1
+Added Pin To Net: NetName=TXD1_1 Pin=R17-1
+Added Pin To Net: NetName=NetESP32_27 Pin=ESP32-27
+Added Pin To Net: NetName=NetESP32_27 Pin=R17-2
+Added Net: Name=NetESP32_27
+Added Pin To Net: NetName=NetESP32_28 Pin=ESP32-28
+Added Pin To Net: NetName=NetESP32_28 Pin=R16-2
+Added Net: Name=NetESP32_28
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component L1 2.2uH
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component R16 1K
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component R17 1K
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component SW POWER Header2

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=IO25_2 Pin=LED1-2
+Added Pin To Net: NetName=IO45_1 Pin=ESP32-S3-26
+Added Pin To Net: NetName=IO45_1 Pin=LED1-2
+Added Net: Name=IO45_1

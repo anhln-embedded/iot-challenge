@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=D+ Pin=ESP32 S3-14
+Added Net: Name=D+
+Added Pin To Net: NetName=D- Pin=ESP32 S3-13
+Added Net: Name=D-

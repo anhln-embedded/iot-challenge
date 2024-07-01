@@ -1,0 +1,33 @@
+Added Component: Designator=ESP32(ESP32-WROOM-32U)
+Added Pin To Net: NetName=GND Pin=ESP32-1
+Added Pin To Net: NetName=3V3 Pin=ESP32-2
+Added Pin To Net: NetName=EN_2 Pin=ESP32-3
+Added Pin To Net: NetName=GND Pin=ESP32-15
+Added Pin To Net: NetName=IO0_2 Pin=ESP32-25
+Added Pin To Net: NetName=TXD1_1 Pin=ESP32-27
+Added Pin To Net: NetName=RXD1_1 Pin=ESP32-28
+Added Pin To Net: NetName=RXD0_2 Pin=ESP32-34
+Added Pin To Net: NetName=TXD0_2 Pin=ESP32-35
+Added Pin To Net: NetName=GND Pin=ESP32-38
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Pin To Net: NetName=GND Pin=ESP32-39
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component ESP32

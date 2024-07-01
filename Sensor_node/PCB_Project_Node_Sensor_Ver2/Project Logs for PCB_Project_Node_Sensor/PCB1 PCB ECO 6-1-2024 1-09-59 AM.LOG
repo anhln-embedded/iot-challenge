@@ -1,0 +1,24 @@
+Change Component Footprint: Designator=ESP32-S3 Old Footprint=ESP32-S3-WROOM-1U New Footprint=ESP32-S3-WROOM-1
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Pin To Net: NetName=GND Pin=ESP32-S3-41
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component C10 100nF
+Added Member To Class: ClassName=Node_Sensor_Schematic Member=Component R15 1.2K

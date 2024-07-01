@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=GND Pin=D1-1
+Removed Pin From Net: NetName=VBUS Pin=D1-2
+Removed Member From Class: ClassName=Node_Sensor_Schematic Member=D1

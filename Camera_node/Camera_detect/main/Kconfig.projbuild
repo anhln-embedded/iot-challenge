@@ -8,22 +8,19 @@ menu "Example Configuration"
             GPIO number on which the "Boot" button is connected. This is generally used
             by the application for custom operations like toggling states, resetting to defaults, etc.
 
-    config EXAMPLE_OUTPUT_GPIO_RED
-        int "Red GPIO"
-        default 2
+    config EXAMPLE_ENABLE_TEST_NOTIFICATIONS
+        bool "Test Notifications"
+        default n
         help
-            Control digital RGB LEDs. Need to connect this GPIO to the red pin of the LED.
+            Enable this option to test mobile push notifications. When enabled, turning on the switch using
+            push button will trigger a parameter notification {"Switch":{"Power":true}} and turning off will
+            trigger an alert "Switch was turned off".
 
-    config EXAMPLE_OUTPUT_GPIO_GREEN
-        int "Green GPIO"
-        default 4
+    config EXAMPLE_OUTPUT_GPIO
+        int "Output GPIO"
+        default 3
         help
-            Control digital RGB LEDs. Need to connect this GPIO to the green pin of the LED.
-
-    config EXAMPLE_OUTPUT_GPIO_BLUE
-        int "Blue GPIO"
-        default 5
-        help
-            Control digital RGB LEDs. Need to connect this GPIO to the blue pin of the LED.
+            This is an output GPIO that will be connected to a relay or other driver circuit in most cases.
+            If the power changes, this GPIO output level will also change.
 
 endmenu

@@ -1,5 +1,14 @@
 # ChangeLog
 
+## v3.2.2 - 2024-6-17
+
+* Fix the compilation error for chips that do not support ADC.
+
+## v3.2.1 - 2024-6-17
+
+### bugfix
+
+- Fixed ignored ADC button tied to GND. thanks `demianzenkov` for the fix.
 
 ## v3.2.0 - 2023-11-13
 

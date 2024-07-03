@@ -1,10 +1,10 @@
 dependencies:
   espressif/button:
-    component_hash: 1f5297fe16f0ee988dbb14b6f4c91782fe2baf85025bb15cc1e0093edd3fb2ee
+    component_hash: e909337d12ca9e1148007c9e03bb0fdc43d1a7df8b2cf44a76458cc044001a96
     source:
       service_url: https://api.components.espressif.com/
       type: service
-    version: 3.2.0
+    version: 3.2.2
   espressif/cbor:
     component_hash: 440f4ee4504841cc9b4f3a8ef755776a612ac9dace355514c68b999868f990ff
     source:
@@ -30,27 +30,27 @@ dependencies:
       type: service
     version: 3.0.4
   espressif/esp_codec_dev:
-    component_hash: 1a3a2e518cd8b52e8796ec393a4050977f8f113599056faf085a02a57e194f86
+    component_hash: 014948481bda426cd46714f297fe1891711246c62bea288863a8cc8cf13ef1f0
     source:
       service_url: https://api.components.espressif.com/
       type: service
-    version: 1.1.0
+    version: 1.2.0
   espressif/esp_diag_data_store:
     component_hash: null
     source:
-      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\esp-insights\components\esp_diag_data_store
+      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\Camera_node\Camera_detect\components\esp-insights\components\esp_diag_data_store
       type: local
     version: 1.0.1
   espressif/esp_diagnostics:
     component_hash: null
     source:
-      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\esp-insights\components\esp_diagnostics
+      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\Camera_node\Camera_detect\components\esp-insights\components\esp_diagnostics
       type: local
     version: 1.0.1
   espressif/esp_schedule:
     component_hash: null
     source:
-      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\esp_schedule
+      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\Camera_node\Camera_detect\components\esp_schedule
       type: local
     version: 1.2.0
   espressif/esp_secure_cert_mgr:
@@ -59,41 +59,41 @@ dependencies:
       service_url: https://api.components.espressif.com/
       type: service
     version: 2.4.1
+  espressif/jsmn:
+    component_hash: d80350c41bbaa827c98a25b6072df00884e72f54885996fab4a4f0aebce6b6c3
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.1.0
   espressif/json_generator:
     component_hash: null
     source:
-      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\json_generator
+      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\Camera_node\Camera_detect\components\json_generator
       type: local
     version: 1.1.1
   espressif/json_parser:
     component_hash: null
     source:
-      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\json_parser
+      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\Camera_node\Camera_detect\components\json_parser
       type: local
     version: 1.0.3
   espressif/mdns:
-    component_hash: ed10ef031bce505e423c5dbf0fdf2ce7a02df5f9ebffb18df2d6b9852e48817d
+    component_hash: 31117d76cae83a6d83ffd7f035f6fdae5bd05b914fc30b641afeb208b84de19a
     source:
       service_url: https://api.components.espressif.com/
       type: service
-    version: 1.3.1
+    version: 1.3.2
   espressif/rmaker_common:
     component_hash: null
     source:
-      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\esp-insights\components\rmaker_common
+      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\Camera_node\Camera_detect\components\esp-insights\components\rmaker_common
       type: local
     version: 1.4.3
   idf:
     component_hash: null
     source:
       type: idf
-    version: 5.2.1
-  jsmn:
-    component_hash: null
-    source:
-      path: E:\Embedded_system\LabD20\IoT_FPT\Github\iot-challenge\ngocanh\IoT_chalange\components\jsmn
-      type: local
-    version: 1.1.0
-manifest_hash: 8a5c9df0c2da7cc260e70321ce5475e16e1ba2331623e4c334cbfc1351cebabc
+    version: 5.1.2
+manifest_hash: a35324306b1bcd639ef19107a7a8109f00ec47815b72a39ea1b984a6614c7639
 target: esp32s3
 version: 1.0.0

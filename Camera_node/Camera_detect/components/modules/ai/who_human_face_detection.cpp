@@ -20,7 +20,7 @@ static QueueHandle_t xQueueResult = NULL;
 
 static bool gEvent = true;
 static bool gReturnFB = true;
-
+static bool gIsDetected = false;
 static void task_process_handler(void *arg)
 {
     camera_fb_t *frame = NULL;
@@ -50,7 +50,7 @@ static void task_process_handler(void *arg)
                     is_detected = true;
                 }
             }
-
+            gIsDetected = is_detected;
             if (xQueueFrameO)
             {
                 xQueueSend(xQueueFrameO, &frame, portMAX_DELAY);
@@ -95,4 +95,8 @@ void register_human_face_detection(const QueueHandle_t frame_i,
     xTaskCreatePinnedToCore(task_process_handler, TAG, 4 * 1024, NULL, 5, NULL, 0);
     if (xQueueEvent)
         xTaskCreatePinnedToCore(task_event_handler, TAG, 4 * 1024, NULL, 5, NULL, 1);
+}
+
+void face_is_detection(bool *p){
+    *p = gIsDetected;
 }

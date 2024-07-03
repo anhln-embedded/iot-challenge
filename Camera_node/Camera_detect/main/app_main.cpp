@@ -32,6 +32,7 @@
 
 #include "app_priv.h"
 #include "who_camera.h"
+#include "app_wifi_camera.h"
 #include "who_human_face_detection.hpp"
 #include "app_httpd.hpp"
 static const char *TAG = "app_main";
@@ -289,15 +290,27 @@ extern "C" void app_main()
     }
     else
     {
+////		app_wifi_main();
+//		xQueueAIFrame = xQueueCreate(2, sizeof(camera_fb_t *));
+//		xQueueHttpFrame = xQueueCreate(2, sizeof(camera_fb_t *));
+//
+//		register_camera(PIXFORMAT_RGB565, FRAMESIZE_QVGA, 2, xQueueAIFrame);
+//		register_human_face_detection(xQueueAIFrame, NULL, NULL, xQueueHttpFrame);
+//		register_httpd(xQueueHttpFrame, NULL, true);
+//        xQueueAIFrame = xQueueCreate(2, sizeof(camera_fb_t *));
+//
+//        xQueueAIFrame = xQueueCreate(2, sizeof(camera_fb_t *));
+//
+//        register_camera(PIXFORMAT_RGB565, FRAMESIZE_QVGA, 2, xQueueAIFrame);
+//        register_human_face_detection(xQueueAIFrame, NULL, NULL, NULL, true);
         xQueueAIFrame = xQueueCreate(2, sizeof(camera_fb_t *));
         xQueueHttpFrame = xQueueCreate(2, sizeof(camera_fb_t *));
 
-
-
         register_camera(PIXFORMAT_RGB565, FRAMESIZE_QVGA, 2, xQueueAIFrame);
         register_human_face_detection(xQueueAIFrame, NULL, NULL, xQueueHttpFrame);
-        app_face_dectection_init();
         register_httpd(xQueueHttpFrame, NULL, true);
+        app_face_dectection_init();
+
     }
 }
 
@@ -326,4 +339,23 @@ esp_err_t app_face_dectection_init()
     }
     return ESP_FAIL;
 }
+
+//#include "who_camera.h"
+//#include "who_human_face_detection.hpp"
+//#include "app_wifi_camera.h"
+//#include "app_httpd.hpp"
+//
+//static QueueHandle_t xQueueAIFrame = NULL;
+//static QueueHandle_t xQueueHttpFrame = NULL;
+//
+//extern "C" void app_main()
+//{
+//	app_wifi_main();
+//    xQueueAIFrame = xQueueCreate(2, sizeof(camera_fb_t *));
+//    xQueueHttpFrame = xQueueCreate(2, sizeof(camera_fb_t *));
+//
+//    register_camera(PIXFORMAT_RGB565, FRAMESIZE_QVGA, 2, xQueueAIFrame);
+//    register_human_face_detection(xQueueAIFrame, NULL, NULL, xQueueHttpFrame);
+//    register_httpd(xQueueHttpFrame, NULL, true);
+//}
 

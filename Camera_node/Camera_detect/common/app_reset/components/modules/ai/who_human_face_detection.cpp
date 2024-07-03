@@ -53,7 +53,7 @@ static void task_process_handler(void *arg)
 
             if (xQueueFrameO)
             {
-                xQueueSend(xQueueFrameO, &frame, portMAX_DELAY);
+                xQueueSend(xQueueFrameO, &frame, 0);
             }
             else if (gReturnFB)
             {

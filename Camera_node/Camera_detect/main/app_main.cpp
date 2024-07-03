@@ -290,19 +290,6 @@ extern "C" void app_main()
     }
     else
     {
-////		app_wifi_main();
-//		xQueueAIFrame = xQueueCreate(2, sizeof(camera_fb_t *));
-//		xQueueHttpFrame = xQueueCreate(2, sizeof(camera_fb_t *));
-//
-//		register_camera(PIXFORMAT_RGB565, FRAMESIZE_QVGA, 2, xQueueAIFrame);
-//		register_human_face_detection(xQueueAIFrame, NULL, NULL, xQueueHttpFrame);
-//		register_httpd(xQueueHttpFrame, NULL, true);
-//        xQueueAIFrame = xQueueCreate(2, sizeof(camera_fb_t *));
-//
-//        xQueueAIFrame = xQueueCreate(2, sizeof(camera_fb_t *));
-//
-//        register_camera(PIXFORMAT_RGB565, FRAMESIZE_QVGA, 2, xQueueAIFrame);
-//        register_human_face_detection(xQueueAIFrame, NULL, NULL, NULL, true);
         xQueueAIFrame = xQueueCreate(2, sizeof(camera_fb_t *));
         xQueueHttpFrame = xQueueCreate(2, sizeof(camera_fb_t *));
 

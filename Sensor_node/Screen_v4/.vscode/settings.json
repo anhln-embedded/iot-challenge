@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "lvgl.h": "c",
+        "*.tcc": "cpp",
+        "algorithm": "cpp",
+        "string": "cpp"
+    },
+    "cmake.sourceDirectory": "C:/Users/VIETNGU/Documents/EMBEDDED_LAB/ESP32/LVGL_test/.pio/libdeps/esp32doit-devkit-v1/lvgl"
+}
